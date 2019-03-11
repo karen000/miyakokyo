@@ -1,0 +1,131 @@
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p, form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: #dbdbff ;
+  opacity: 0.8;
+}
+
+.logo {
+  height: 90px;
+  width: 200px;
+  padding-left: 10px;
+  float: left;
+}
+
+.header-list {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header li {
+  float: right;
+  padding: 33px 40px;
+  list-style: none;
+  display: list-item;
+}
+
+.header a {
+  text-decoration:none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.top-wrapper {
+  padding: 180px 0px 100px 0px;
+  background-image: url(photos.jpg);
+  background-size: cover;
+  background-position: 0% 30%;
+  height: 600px;
+  opacity: 0.8;
+}
+
+.text-contents {
+  text-align: center;
+  opacity: 0.8;
+  font-family: serif;
+  font-size: 30px;
+}
+
+.about {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding-bottom: 200px;
+}
+
+.about h1 {
+  font-family: serif;
+  font-size: 80px;
+  color: red;
+  opacity: 0.8;
+  padding: 200px 0 50px 0;
+}
+
+.icon {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border: 8px solid rgba(102,0,15,0.8);
+  box-shadow: 0 0 10px gray;
+  padding: 2px;
+}
+
+.about h2 {
+  font-family: serif;
+  font-size: 50px;
+  padding: 15px 0;
+  color: white;
+}
+
+.about p {
+  font-family: serif;
+  font-size: 15px;
+  padding: 5px 0;
+  color: white;
+}
+
+.text {
+  padding-bottom: 100px;
+}
+
+.message-wrapper {
+  padding: 200px 200px;
+  background-color: #1a1a1a;
+}
+
+.message-wrapper p {
+  display: white;
+  text-align: left;
+  color: red;
+  font-family: serif;
+  font-size: 50px;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(102,0,0,0.8);
+  text-align: center;
+}
+
+footer img {
+  width: 200px;
+  height: auto;
+  padding: 15px 0;
+}
+
+footer p {
+  color: white;
+  opacity: 0.8;
+}
