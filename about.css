@@ -1,0 +1,63 @@
+html, body, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+p, form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  background-color: #dbdbff ;
+  opacity: 0.8;
+}
+
+.logo {
+  height: 90px;
+  width: 200px;
+  padding-left: 10px;
+  float: left;
+}
+
+.header-list {
+  display: block;
+}
+
+.header li {
+  float: right;
+  padding: 33px 40px;
+  list-style: none;
+  display: list-item;
+}
+
+.header a {
+  text-decoration:none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+
+iframe {
+  text-align: center;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(102,0,0,0.8);
+  text-align: center;
+}
+
+footer img {
+  width: 200px;
+  height: auto;
+  padding: 15px 0;
+}
+
+footer p {
+  color: white;
+  opacity: 0.8;
+}
